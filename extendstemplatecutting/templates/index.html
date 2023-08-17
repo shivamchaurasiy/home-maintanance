@@ -1,0 +1,278 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<div class="container-fluid m-0 p-0">
+  <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="{% static 'images/31.jpg' %}" alt="Los Angeles" class="d-block" style="width:100%;height: 435px;">
+        <div class="carousel-caption">
+          <div class="row">
+            <div class="col">
+              <h1 style="font-weight: bold; font-size: 60px">WINDOWS & DOORS SPECIALIST!</h1>
+              <P style="font-size: 30px; font-weight:bold;">This is a good home management</P>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="{% static 'images/33.jpg' %}" alt="Chicago" class="d-block" style="width:100%;height:435px;">
+        <div class="carousel-caption">
+          <div class="row">
+            <div class="col">
+              <h1 style="font-weight: bold; font-size: 60px">WINDOWS & DOORS SPECIALIST!</h1>
+              <P style="font-size: 30px; font-weight:bold;">This is a good home management</P>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="{% static 'images/7.jpg' %}" alt="New York" class="d-block" style="width:100%;height: 435px;">
+        <div class="carousel-caption">
+          <div class="row">
+            <div class="col">
+              <h1 style="font-weight: bold; font-size: 60px">WINDOWS & DOORS SPECIALIST!</h1>
+              <P style="font-size: 30px; font-weight:bold;">This is a good home management</P>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+  <!--end of carousel-->
+</div>
+<!--.................................................end of container-->
+
+<div class="container mt-5 pb-4">
+  <div class="row rowsetting">
+    <div class="col-lg-6 col-md-4 col-sm-4 col-10 d-block m-auto">
+      <img src="{% static 'images/1.jpg' %}" class="img-fluid" alt="" style="width:700px; height:300px">
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+      <span class="display-6">Windows & Doors Professionals</span>
+      <p style="margin-top: 5px;">There are many reasons why Chapman Windows and Doors has been in business long
+        enough to celebrate its 20th anniversary this year. The fact that they sell and provide expert installation
+        for the finest and most energy- efficient home remodeling products around is at the top of the list. But just
+        as important is the way they treat their customers like family.</p>
+    </div>
+  </div>
+</div>
+<!--.................................................end of container-->
+
+<div class="container mt-5 text-center">
+  <h2>Warm Windows & Doors for Office & Home</h2>
+  <p> Warm Windows is one of a few companies that are now supplying this technology to the New Zealand market. In fact
+    it was Warm Windows who supplied the very high performance glazing for Murray and Lee Ann’s Passive House.</p>
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+      <div class="card">
+        <img src="/static/images/8.jpg" class="card-img img-fluid" alt="">
+        <h2 class="card-title">Window Services</h2>
+        <p card-text>Come in a variety of designs, colours and hardware options
+          Best utilization of space since the sashes open left to right or vice versa
+          Air-tight, helps to keep- noise, dust, heat and pollution outside
+          Monsoon track for heavy rains.</p>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+      <div class="card">
+        <img src="/static/images/9.jpg" class="card-img img-fluid" alt="">
+        <h2 class="card-title">Planning & Projects</h2>
+        <p class="card-text">Once you are in the market for windows you quickly realise that not all windows are
+          equal,this is good project. There are a great variety of products, particularly in terms of quality, style
+          and performance.</p>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+      <div class="card">
+        <img src="/static/images/10.jpg" class="card-img img-fluid" alt="">
+        <h2 class="card-title">Doors & Services</h2>
+        <p card-text>Rain track for a free-flow drain system
+          Hurricane bar option to withstand heavy stormsHurricane bar option to withstand heavy storms
+          Weather and soundproof
+          Available in a variety of design, colours and hardware options</p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+      <div class="card">
+        <img src="{% static 'images/27.jpg' %}" class="card-img img-fluid" alt="">
+        <h2 class="card-title">Where to Begin</h2>
+        <p card-text>Whether you are building a new home or renovating, the first questions is 'Where to Start?' By
+          visiting this website you're in a good position to start the learning and decision making process.</p>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+      <div class="card">
+        <img src="/static/images/28.jpg" class="card-img img-fluid" alt="">
+        <h2 class="card-title">About Windows</h2>
+        <p class="card-text">Once you are in the market for windows you quickly realise that not all windows are
+          equal. There are a great variety of products, particularly in terms of quality, style and performance.
+          About Windows</p>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+      <div class="card mt-2">
+        <img src="/static/images/29.jpg" class="card-img img-fluid" alt="">
+        <h2 class="card-title">Components of Windows & Doors</h2>
+        <p card-text>Aluminium framed windows and doors are popular due to their low maintenance. Unlike other
+          materials they will not rust or rot.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!--................................... ..............end of container-->
+
+<div class="container mt-5 text-center passion">
+  <h1>Quality is Our Passion</h1>
+  <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus
+    nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.</p>
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto p-2">
+      <div class="card">
+        <span><i class="fa fa-thumbs-up text-danger fa-2x p-3"></i></span>
+        <h3 class="card-title">Maintenance</h3>
+        <p class="card-text p-3"> The first step towards purchasing the correct type of doors for your house is to
+          know about the best type of doors and windows that the market has to offer. </p>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto p-2">
+      <div class="card">
+        <span><i class="fa fa-truck text-danger fa-2x p-2"></i></span>
+        <h3 class="card-title p-2">We Delivery in time</h3>
+        <p class="card-text p-3">The windows and main entrance door are used the most in any typical household.
+          Unfortunately, these are the ones most prone to damage due to wear and tear. </p>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto p-3">
+      <div class="card">
+        <span><i class="fa fa-line-chart text-danger fa-2x p-2"></i></span>
+        <h3 class="card-title p-0">Express Services</h3>
+        <p class="card-text p-3">It is better to check and replace the hardware instead of going for the entire door
+          or window. If you try to save small on the accessories of home doors and windows.</p>
+      </div>
+    </div>
+  </div>
+  <div class="row ourpassion">
+    <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+      <div class="card">
+        <span><i class="fa fa-paint-brush text-danger fa-2x p-2"></i></span>
+        <h3 class="card-title">Technical Services</h3>
+        <p class="card-text p-3"> Our clients have often missed out these technical aspects. Hence, we have successfully
+          guided them through a multitude of related maintenance and repair requirements, as we pledge to do it for you
+          further. </p>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto p-3">
+      <div class="card">
+        <span><i class="fa fa-wrench text-danger fa-2x p-2"></i></span>
+        <h3 class="card-title p-2">Engineering Services</h3>
+        <p class="card-text p-3"> In some homes, buildings, condos, and co-ops, especially older buildings and
+          multi-family complexes, poor operation of windows and doors is due to normal settlement or normal wear and
+          tear </p>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto p-3">
+      <div class="card">
+        <span><i class="fa fa-cog text-danger fa-2x p-2"></i></span>
+        <h3 class="card-title p-2">A Premium Services</h3>
+        <p class="card-text p-3"> There is no chance for compromise if matter of pride, moreover always a #Hotel owner
+          wants to surprise guest with different interior. Home Maintenance & Technical Services reviews, salaries,
+          leadership.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!--.......................................  end of passion container-->
+
+<section class="bgimg img-fluid">
+  <div class="container-fluid ourquality text-center">
+    <div class="row">
+      <div class=" col-10 mt-5 d-block m-auto" style="color:white">
+        <h1>“ Quality Services & Excellent Work! ”</h1>
+        <p style="font-size: 20px;">A maintenance company is where you go-to when your home or property’s normal
+          functioning is effected and you are facing problems around your home that require a professional’s knowledge
+          and experience.</p>
+     
+      </div>
+    </div>
+  </div>
+</section>
+<!--.........................................end of ourquality section-->
+
+
+<div class="container text-center mt-5  trustservices">
+  <div class="row" style="background-color: whitesmoke;">
+    <div class="col-lg-6 col-sm-6 col-md-12 col-10 d-block m-auto">
+      <img src="/static/images/36.jpg" class="img-fluid" alt="">
+    </div>
+    <div class="col-lg-6 col-sm-4 col-md-12 col-10 d-block m-auto">
+      <h2>Service You Can Trust</h2>
+      <p>Protect All Your Home Application & Systems.</p>
+      <a href="{% url 'services' %}" class="btn btn-primary">VIEW ALL SERVICES</a>
+    </div>
+
+  </div>
+</div>
+<!--.........................................end of  trustservices-->
+
+<div class="container-fluid mt-5 chooseus m-0 p-0">
+  <div class="maintenance">
+    <div class="row">
+      <h2 class="text-primary">One Stop Solution for your Complete Home Maintenance</h2>
+      <div class="col d-block m-auto text-light">
+        <div>
+          <span class="fa fa-check icon text-light"></span><span class="topic">Vision</span>
+          <p>Our goal is to assist and lead our customers in identifying their facility maintenance needs.</p>
+        </div>
+
+        <div>
+          <span class="fa fa-book icon text-light"></span><span class="topic">Affordable</span>
+          <p>Our cleaning service is spotless and our pest control is guaranteed to rid your home or business of pests.
+          </p>
+        </div>
+
+        <div>
+          <span class="fa fa-photo icon text-light"></span><span class="topic">Quality</span>
+          <p>The Company offers air conditioning, heating, and air quality repair, installation, and maintenance
+            services.</p>
+        </div>
+
+        <div>
+          <span class="fa fa-briefcase icon text-light"></span><span class="topic">24x7
+            HomeSupportedContent</span>
+          <p>24x7 Home a wide range of products and / or services to cater to
+            the varied requirements of their customers. </p>
+        </div>
+      </div>
+      <div class="col-lg-3 d-block m-auto">
+        <img src="/static/images/37.jpg" class="img-fluid" alt="">
+      </div>
+    </div>
+  </div>
+</div><!--end of maintenance-->
+</div><!--end of chooseus container-->
+
+{% endblock %}
+
+</body>
+
+</html>
